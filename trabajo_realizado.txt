@@ -1,0 +1,29 @@
+En este documento defino los pasos que he realizado sobre el repositorio junto a los comandos que he usado.
+
+1. Me he clonado el repositorio en mi ordenador para poder trabajar en el.
+2. Me he colocado en mi rama para realizar los cambios oportunos con el comando "git checkout featureHector".
+3. He realizado el comando "git branch -a" para poder visualizar las ramas del repositorio y conocer cual es mi rama, en mi caso es "featureHector".
+4. Lo primero que he hecho ha sido crear un documento "README.md" con el comando "nano README.md".
+5. Dentro del documento he incluido mi nombre junto a la fecha y la hora de modificacion del archivo.
+6. Tras haber terminado de modificarlo me he dispuesto a actualizarlo en el repositorio.
+7. He ejecutado el comando "git status" para conocer el estado de los documentos modificados, en este caso solo esta el README.md .
+8. Ejecuto el comando "git add ." para incorporar todos los archivos deseados al commit que vamos a realizar.
+9. Redactamos el mensaje del commit que vamos a realizar con el comando "git commit -m "README.md file from featureHector branch updated to date" ".
+10. Realizamos el comando "git push origin featureHector" para que se envien a la rama origin los archivos de la rama featureHector, y de esta manera se muestren en nuestro repositorio.
+11. Al acceder a Github nos aparece que la rama main no esta actualizada, por lo que abrimos una pull request, que esperamos a que sea aceptada por alguno de nuestro compañeros, y que una vez aceptada se actualiza en la rama main.
+12. Cuando la pull request es aceptada, ejecutamos por terminal el comando "git checkout main" que nos mueve a la rama principal.
+13. Dentro de la rama main ejecutamos el comando "nano README.md" y observamos que el archivo que hemos modificado en nuestra rama se ha actualizado tambien en la rama main.
+14. Ejecutamos el comando "git checkout featureHector" para volver a nuestra rama de trabajo y continuar realizando modificaciones.
+15. Desde local volvemos a acceder al README para modificarlo con los miembros del equipo B, para ello ejecutamos el comando "nano README.md".
+16. Realizamos el comando "git status" para conocer los archivos que han sido modificados.
+17. Ejecutamos el comando "git add README.md" para incorporar el archivo al push que vamos a realizar.
+18. Redactamos el commit correspondiente como "git commit -m "Update of the README file with the team members" ".
+19. Realizamos el comando "git push origin featureHector" para actualizar el contenido de la rama.
+20. Creamos un nuevo archivo .html con el comando "nano index.html" que incorpora una estructura basica de html.
+21. Ejecutamos el comando para añadirlo al commit "git add index.html".
+22. Redactamos un commit "git commit -m "Creation of .html file for a webpage" " .
+23. Lo actualizamos en la rama main de manera remota con el comando "git push origin featureHector". 
+24. Con ambos ambos archivos modificados abrimos una nueva pull request, y esperamaos a que sea aceptada por alguno de los miembros del equipo.
+
+Ahora realizare los mismos pasos para subir este archivo a mi rama, solo que no abriré ninguna pull request ya que el contenido que tiene es de caracter especifico de la rama y no aporta ningun contenido o mejora util para el proyecto.
+
